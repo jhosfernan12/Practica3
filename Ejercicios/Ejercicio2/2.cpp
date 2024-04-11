@@ -55,7 +55,7 @@ int main()
 
     double totalArea = areaTotal(formas, 2);
 
-    std::cout << "El area total de las formas es: " << totalArea << std::endl;
+    cout << "El area total de las formas es: " << totalArea << endl;
 
     delete formas[0];
     delete formas[1];
